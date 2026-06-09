@@ -15,7 +15,7 @@ jobs:
           node-version: '18'
       - name: Install
         run: npm install
-      - name: Optional: Opt into Node.js 24 for JS actions
+      - name: "Optional: Opt into Node.js 24 for JS actions"
         if: always()
         run: |
           echo "To opt into Node.js 24 for JavaScript actions set the runner env var in repo settings if desired."
